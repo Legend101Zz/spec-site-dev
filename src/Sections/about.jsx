@@ -7,9 +7,9 @@ export default function About() {
   return (
     <div name="about" className="w-full bg-black text-white text-center">
       <div className="max-w-[1240px] mx-auto px-4 py-16 ">
-        <div>
+        <div name="aboutus" className="flex flex-col text-left rounded-2xl py-12 px-8 hover:scale-105 duration-300 ">
           <h1 className="py-4">About Us</h1>
-          <p className="text-white mb-10">
+          <p className="text-gray-300 mb-10">
             Electrothon is a student-run hackathon, under the aegis of the
             National Institute of Technology Hamirpur, India. An exceptional
             place for young and dedicated minds, a platform for organizations to
@@ -17,6 +17,7 @@ export default function About() {
             Electrothon serves as a hub of ingenious ideas, innovation,
             entrepreneurship and technical skills.
           </p>
+          </div>
           {/* Card Container */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 ">
             {/* Card */}
@@ -41,7 +42,7 @@ export default function About() {
               heading="Open Innovation"
               text="Let your imagination go haywire as you envision ideas that hold the capability to solve any problem that has been distressing mankind for ages."
             />
-          </div>
+          
         </div>
       </div>
     </div>
